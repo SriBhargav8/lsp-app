@@ -13,14 +13,10 @@ workflows:
     scripts:
       - name: Set up JDK
         script: |
-          #!/usr/bin/env sh
-          set -e
           export JAVA_HOME="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home"
           export PATH=$JAVA_HOME/bin:$PATH
       - name: Build APK
         script: |
-          #!/usr/bin/env sh
-          set -e
           chmod +x ./gradlew
           ./gradlew assembleRelease --stacktrace --info
     artifacts:
