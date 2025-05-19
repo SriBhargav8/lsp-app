@@ -3,6 +3,15 @@ workflows:
     name: Android Build
     max_build_duration: 60
     instance_type: mac_mini_m2
+    triggering:
+      events:
+        - push
+        - pull_request
+      branch_patterns:
+        - pattern: '*'
+          include: true
+          source: true
+      cancel_previous_builds: false
     environment:
       node: v16.20.2
       java: 11
@@ -11,10 +20,11 @@ workflows:
       vars:
         PACKAGE_NAME: "com.LegalSuvidha.legalsuvidhaproviders"
     cache:
-      - ~/.gradle/caches
-      - ~/.gradle/wrapper
-      - .gradle
-      - build
+      paths:
+        - ~/.gradle/caches
+        - ~/.gradle/wrapper
+        - .gradle
+        - build
     scripts:
       - name: Set up JDK
         script: |
