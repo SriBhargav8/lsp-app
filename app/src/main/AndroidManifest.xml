@@ -44,7 +44,7 @@
         <activity android:name=".Bookings.BookingActivity" />
         <activity android:name=".Profile.ReferralActivity" />
         <activity android:name=".SignupLogin.StartActivity" />
-        <activity android:name=".SignupLogin.Login.LoginActivity">
+        <activity android:name=".SignupLogin.Login.LoginActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -125,7 +125,7 @@
         <activity android:name=".HomeScreen" />
         <activity android:name=".GstVaidation.GstValidatorActivity" />
         <activity android:name=".SignupLogin.Login.LoginVerifyOTP" />
-        <activity android:name=".SignupLogin.MainActivity">
+        <activity android:name=".SignupLogin.MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -151,12 +151,13 @@
             android:name=".MyFireBaseMessagingService"
             android:directBootAware="true"
             android:stopWithTask="false"
-            tools:targetApi="n">
+            tools:targetApi="n"
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name=".FirebaseInstanceIDService">
+        <service android:name=".FirebaseInstanceIDService" android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
