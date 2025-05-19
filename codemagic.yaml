@@ -11,11 +11,10 @@ workflows:
       vars:
         PACKAGE_NAME: "com.LegalSuvidha.legalsuvidhaproviders"
     cache:
-      paths:
-        - ~/.gradle/caches
-        - ~/.gradle/wrapper
-        - .gradle
-        - build
+      - ~/.gradle/caches
+      - ~/.gradle/wrapper
+      - .gradle
+      - build
     scripts:
       - name: Set up JDK
         script: |
