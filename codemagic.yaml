@@ -21,7 +21,8 @@ workflows:
         script: |
           #!/usr/bin/env sh
           set -e
-          ./gradlew assembleRelease
+          chmod +x ./gradlew
+          ./gradlew assembleRelease --stacktrace --info
     artifacts:
       - app/build/outputs/apk/release/app-release.apk
     publishing:
