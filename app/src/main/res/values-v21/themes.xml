@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ThemeOverlay.titleColor" parent="">
+        <item name="android:textColorSecondary">@color/nav</item>
+        <item name="android:strokeColor">@color/nav</item>
+    </style>
+</resources>
