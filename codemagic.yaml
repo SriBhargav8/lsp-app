@@ -10,11 +10,6 @@ workflows:
         - google_credentials
       vars:
         PACKAGE_NAME: "com.LegalSuvidha.legalsuvidhaproviders"
-    cache:
-      - ~/.gradle/caches
-      - ~/.gradle/wrapper
-      - .gradle
-      - build
     scripts:
       - name: Set up JDK
         script: |
