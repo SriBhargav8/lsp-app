@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:backgroundTint="@color/transparent"
+    tools:context=".SignupLogin.SignUpp.SignUpReferralActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginVertical="80dp"
+        android:layout_marginHorizontal="30dp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="match_parent">
+
+<!--        <ImageView-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_marginBottom="40dp"-->
+<!--            android:src="@drawable/surprise"/>-->
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/referralrImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            android:visibility="visible"
+            app:lottie_autoPlay="false"
+            app:lottie_fileName="animated-giftbox.json"
+            app:lottie_loop="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Referal Code"
+            android:layout_marginTop="20dp"
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/referralCodeTextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            app:boxStrokeColor="@color/grey"
+            app:boxBackgroundColor="@color/white"
+            android:hint="Referral Code"
+            android:layout_marginTop="20dp"
+            app:startIconTint="@color/black"
+            android:textColorHint="@color/grey"
+            app:hintTextColor="@color/grey">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                 />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:onClick="claimReferral"
+            android:backgroundTint="@color/black"
+            android:text="ClAIM IT"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@color/transparent"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:onClick="skipReferral"
+            android:text="skip"/>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

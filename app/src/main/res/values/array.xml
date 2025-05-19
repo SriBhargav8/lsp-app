@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="india_states">
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttaranchal</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+
+    <string-array name="Return_Pending_From">
+        <item>December-20</item>
+        <item>November-20</item>
+        <item>October-20</item>
+        <item>September-20</item>
+        <item>August-20</item>
+        <item>July-20</item>
+        <item>June-20</item>
+        <item>May-20</item>
+        <item>April-20</item>
+        <item>March-20</item>
+        <item>February-20</item>
+        <item>January-20</item>
+        <item>December-19</item>
+        <item>November-19</item>
+        <item>October-19</item>
+        <item>September-19</item>
+        <item>August-19</item>
+        <item>July-19</item>
+        <item>June-19</item>
+        <item>May-19</item>
+        <item>April-19</item>
+        <item>March-19</item>
+        <item>February-19</item>
+        <item>January-19</item>
+        <item>December-18</item>
+        <item>November-18</item>
+        <item>October-18</item>
+        <item>September-18</item>
+        <item>August-18</item>
+        <item>July-18</item>
+        <item>June-18</item>
+        <item>May-18</item>
+        <item>April-18</item>
+        <item>March-18</item>
+        <item>February-18</item>
+        <item>January-18</item>
+        <item>December-17</item>
+        <item>November-17</item>
+        <item>October-17</item>
+        <item>September-17</item>
+        <item>August-17</item>
+        <item>July-17</item>
+    </string-array>
+
+</resources>
