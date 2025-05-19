@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PinWidget.PinView" parent="">
+        <item name="itemCount">6</item>
+        <item name="itemWidth">40dp</item>
+        <item name="itemHeight">40dp</item>
+        <item name="itemRadius">8dp</item>
+        <item name="lineColor">@color/grey</item>
+        <item name="cursorColor">@color/black</item>
+        <item name="hideLineWhenFilled">true</item>
+    </style>
+</resources> 
