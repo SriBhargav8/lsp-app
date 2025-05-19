@@ -5,6 +5,7 @@ plugins {
 }
 
 android {
+    namespace 'com.LegalSuvidha.legalsuvidhaproviders'
     compileSdkVersion 34
     buildToolsVersion "34.0.0"
 
