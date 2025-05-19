@@ -3,15 +3,6 @@ workflows:
     name: Android Build
     max_build_duration: 60
     instance_type: mac_mini_m2
-    triggering:
-      events:
-        - push
-        - pull_request
-      branch_patterns:
-        - pattern: '*'
-          include: true
-          source: true
-      cancel_previous_builds: false
     environment:
       node: v16.20.2
       java: 11
@@ -20,11 +11,10 @@ workflows:
       vars:
         PACKAGE_NAME: "com.LegalSuvidha.legalsuvidhaproviders"
     cache:
-      paths:
-        - ~/.gradle/caches
-        - ~/.gradle/wrapper
-        - .gradle
-        - build
+      - ~/.gradle/caches
+      - ~/.gradle/wrapper
+      - .gradle
+      - build
     scripts:
       - name: Set up JDK
         script: |
@@ -36,17 +26,7 @@ workflows:
           ./gradlew assembleRelease --stacktrace --info --no-daemon
     artifacts:
       - app/build/outputs/apk/release/app-release.apk
-      - app/build/outputs/mapping/release/mapping.txt
-      - app/build/outputs/bundle/release/app-release.aab
     publishing:
       email:
         recipients:
-          - sribhargav8500@gmail.com
-      scripts:
-        - name: Upload to Firebase App Distribution
-          script: |
-            if [ "$CM_BUILD_STATUS" = "success" ]; then
-              firebase appdistribution:distribute app/build/outputs/apk/release/app-release.apk \
-                --app "$FIREBASE_APP_ID" \
-                --groups "testers" \
-                --release-notes "Build $CM_BUILD_NUMBER" 
+          - sribhargav8500@gmail.com 
