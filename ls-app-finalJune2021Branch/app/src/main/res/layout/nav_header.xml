@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#F6F4F4"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:paddingTop="6dp"
+        android:text="Legal Suvidha Providers"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="www.legalsuvidha.com"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/grey"
+        android:background="@color/grey"
+        android:layout_marginRight="16dp"
+        android:layout_height="1dp"/>
+
+</LinearLayout>

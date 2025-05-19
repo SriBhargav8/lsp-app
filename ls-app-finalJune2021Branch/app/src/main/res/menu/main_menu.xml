@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/house"
+            android:title="Home" />
+        <item android:id="@+id/blogs"
+            android:icon="@drawable/blog"
+            android:title="Blogs"/>
+        <item android:id="@+id/gst_validator"
+            android:icon="@drawable/validation"
+            android:title="GST Validator"/>
+        <item android:id="@+id/IncomeTaxCalculator"
+            android:icon="@drawable/income"
+            android:title="Income Tax Calculator"/>
+        <item android:id="@+id/rent_receipt_generator"
+            android:icon="@drawable/rent"
+            android:title="Rent Receipt Generator"/>
+        <item android:id="@+id/gstlatefeeCalculator"
+            android:icon="@drawable/gst_return"
+            android:title="Gst late fee Calculator"/>
+        <item android:id="@+id/share_certificate_generator"
+            android:icon="@drawable/share_certificate"
+            android:title="Share Certificate Generator"/>
+
+    </group>
+
+
+    <item
+
+        android:title="Services"
+        >
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/get_21_Free_Agreement"
+                    android:icon="@drawable/agreement"
+                    android:title="File ITR"/>
+                <item android:id="@+id/gst_return"
+                    android:icon="@drawable/gst_return"
+                    android:title="Gst Return"/>
+                <item android:id="@+id/business_registration"
+                    android:icon="@drawable/team"
+                    android:title="Business Registration"/>
+                <item android:id="@+id/gst_registration"
+                    android:icon="@drawable/registration"
+                    android:title="Gst Registration"/>
+                <item android:id="@+id/mandatory_annual_compliance"
+                    android:icon="@drawable/checklist"
+                    android:title="Mandatory Annual Compliance"/>
+                <item android:id="@+id/trademark_registration"
+                    android:icon="@drawable/stamp"
+                    android:title="Trademark Registration"/>
+                <item android:id="@+id/startup_india_registration"
+                    android:icon="@drawable/businessman"
+                    android:title="Startup India Registration"/>
+
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/other_user"/>
+                <item android:id="@+id/nav_bookings"
+                    android:title="Bookings"
+                    android:icon="@drawable/deal"/>
+                <item android:id="@+id/nav_rewards"
+                    android:title="Rewards"
+                    android:icon="@drawable/gift_box"/>
+                <item android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout"
+                    android:title="Logout"/>
+
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item
+        android:title="communicate">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item android:id="@+id/nav_share"
+                    android:title="Share"
+                    android:icon="@drawable/share"/>
+                <item android:id="@+id/nav_email_us"
+                    android:icon="@drawable/mail"
+                    android:title="Email Us"/>
+                <item android:id="@+id/rate_the_app"
+                    android:icon="@drawable/rate"
+                    android:title="Rate the App"/>
+
+            </group>
+
+        </menu>
+    </item>
+
+</menu>
+
+<!--<item android:title="Profile">-->
+<!--<menu>-->
+<!--    <group android:checkableBehavior="single">-->
+
+<!--        <item android:id="@+id/nav_profile"-->
+<!--            android:title="Profile"-->
+<!--            android:icon="@drawable/ic_baseline_person_outline_24"/>-->
+<!--        <item android:id="@+id/nav_logout"-->
+<!--            android:icon="@drawable/ic_baseline_logout_24"-->
+<!--            android:title="Logout"/>-->
+
+<!--    </group>-->
+<!--</menu>-->
+<!--</item>-->

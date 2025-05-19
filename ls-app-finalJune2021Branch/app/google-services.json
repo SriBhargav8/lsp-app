@@ -1,0 +1,124 @@
+{
+  "project_info": {
+    "project_number": "574251751569",
+    "project_id": "legalsuvidhaproviders",
+    "storage_bucket": "legalsuvidhaproviders.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574251751569:android:59c3960b4f57bfbf754730",
+        "android_client_info": {
+          "package_name": "com.LegalSuvidha.legalsuvidhaproviders"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574251751569-d48f1q7sjkguvlendlqa7beg16un4g2l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.LegalSuvidha.legalsuvidhaproviders",
+            "certificate_hash": "61a5f7097543c9348f0dcf3e8988451947713c9b"
+          }
+        },
+        {
+          "client_id": "574251751569-f829bakiop73t453uauml00auoli005d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.LegalSuvidha.legalsuvidhaproviders",
+            "certificate_hash": "5c255f083d2ac7dac7746438b6238fac36c56ba7"
+          }
+        },
+        {
+          "client_id": "574251751569-r7cl68tlpvm5khn4aomd9mn86o93dqfu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.LegalSuvidha.legalsuvidhaproviders",
+            "certificate_hash": "a3b5863296b96c449f9d1d81761f599e46a0e5ef"
+          }
+        },
+        {
+          "client_id": "574251751569-s0g3pcdodc0ljqbf3lr6vogvc9n6h46v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.LegalSuvidha.legalsuvidhaproviders",
+            "certificate_hash": "face813a4f4ca4e6d6f3d9300a050ec80e85e783"
+          }
+        },
+        {
+          "client_id": "574251751569-lcvhlt0uiqp2e6eaf27hjh8ph8ks755g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbYaLyQJOMy5dpqpLeI4w3ACrQR3NHyX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574251751569-l27v4hf9eksb2be20418bn0essj3lgs8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574251751569:android:cc78d208f69098e5754730",
+        "android_client_info": {
+          "package_name": "com.example.legalsuvidhaproviders"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574251751569-b0semej1sr47cdfeck3rl62fn974i4u3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.legalsuvidhaproviders",
+            "certificate_hash": "61a5f7097543c9348f0dcf3e8988451947713c9b"
+          }
+        },
+        {
+          "client_id": "574251751569-opoc877tcb9iammi25387d8k7rdrtogo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.legalsuvidhaproviders",
+            "certificate_hash": "face813a4f4ca4e6d6f3d9300a050ec80e85e783"
+          }
+        },
+        {
+          "client_id": "574251751569-v59np2ivde974dpibeqd6a9ibmn2rcca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.legalsuvidhaproviders",
+            "certificate_hash": "a3b5863296b96c449f9d1d81761f599e46a0e5ef"
+          }
+        },
+        {
+          "client_id": "574251751569-lcvhlt0uiqp2e6eaf27hjh8ph8ks755g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbYaLyQJOMy5dpqpLeI4w3ACrQR3NHyX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574251751569-l27v4hf9eksb2be20418bn0essj3lgs8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

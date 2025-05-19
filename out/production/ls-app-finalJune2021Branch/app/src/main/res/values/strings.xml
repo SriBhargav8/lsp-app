@@ -1,0 +1,275 @@
+<resources>
+    <string name="app_name">LegalSuvidhaProviders</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="BLOGS_CHANNEL_ID">blogs</string>
+    <string name="CHANNEL_BLOGS">Blogs</string>
+    <string name="CHANNEL_DESCRIPTION">Get informed with new  blog updates</string>
+
+    <string name="CHANNEL_RENT_RECEIPT">RENT RECEIPT</string>
+    <string name="RENT_RECEIPT_CHANNEL_DESCRIPTION">rent receipt download</string>
+    <string name="RENT_RECEIPT_CHANNEL_ID">Rent Receipt</string>
+
+    <string name="CHANNEL_SHARE_CERTIFICATE">SHARE CERTIFICATE</string>
+    <string name="SHARE_CERTIFICATE_CHANNEL_DESCRIPTION">Share certificate download</string>
+    <string name="SHARE_CERTIFICATE_CHANNEL_ID">SHARE CERTIFICATE</string>
+
+<!--    <string name="Section8NGODesc">A Section 8 Company is a Non-Profit Organization (NPO) which is established to promote art, science, commerce,-->
+<!--        religion, charity, education, protection of the environment, social welfare, sports, research or any other advantageous object i.e. for-->
+<!--        charitable or not for profit purposes. The profits derived from such promotion cannot be used by the members but can only be utilized to-->
+<!--        support and promote the objectives of the company. No dividend is paid to its members from the income earned.\n \n-->
+<!--        <b><u> Documents required</u></b>\n-->
+<!--        1. ID proof for members \n-->
+<!--    2. Address Proof\n-->
+<!--    3. Passport size Photographs\n-->
+<!--    4. Copy of Rent agreement(If rented property)\n-->
+<!--    5. Electricity/ Water bill (Business Place)\n-->
+<!--    6. Copy of Property papers (If owned property)\n-->
+<!--    7. NOC of Landowner\n-->
+<!--    8. Director’s Directorship details (in other Companies/LLPs, if any)</string>-->
+
+    <string name="Section8NGODesc">Are you planning to start a NGO? \nDoing business after Company Registration reflect your intention for doing business in a systematic manner. \nGet your Company Registration done easily with Legal Suvidha.
+    </string>
+
+<!--    <string name="Private_Limited_Company_Desc">Private Limited Company is the most preferred business structure for Start-ups and-->
+<!--        small businesses in India. It is relatively easier to register a private limited company. Ministry of Corporate-->
+<!--        Affairs is the registering authority &amp; if registered, gives you rights for doing business anywhere in India &amp;-->
+<!--        outside India. The hallmark features of a private limited company are that it allows outside funding to be raised-->
+<!--        easily offering the possibility to grow big &amp; expand, limit the liabilities of its shareholders and enables them-->
+<!--        to offer employee stock options to pull in top talent.\n \n-->
+<!--        <b><u> Documents required</u></b>\n-->
+<!--        <b>For Directors &amp; Shareholders</b>\n-->
+<!--        1. Self Attested PAN Card copy\n-->
+<!--        2. Self Attested copy of any one of the Identity Proof(Voter\'s ID/Passport/Driver\'s License)\n-->
+<!--        3. Self Attested copy of Address Proof in the name of the director (Any utility bill i.e., mobile bill/water bill/ electricity bill, or bank statement which should not be older than two months)\n-->
+<!--        4. Passport-sized photograph\n\n-->
+<!--        <b>For Registered Office</b>\n-->
+<!--        1. Rent Agreement (Notarised: For rented property)\n-->
+<!--        2. Sale Deed/Property Deed in English (in case of owned property)\n-->
+<!--        3. No-objection Certificate from the property owner\n-->
+<!--        4. Latest Electricity Bill / Mobile or Telephone Bill / Latest Bank Statement/Gas Bill</string>-->
+
+    <string name="Private_Limited_Company_Desc">Are you planning to start a Private Limited Company?\nDoing business after Company registration reflect your Intention for doing business in a systematic manner. \nGet your Company Registration done easily with Legal Suvidha.</string>
+
+<!--    <string name="LLP_Desc">Limited Liability Partnership (LLP), introduced only in 2008, has quickly become a popular-->
+<!--        legal structure for businesses. As its name suggests, the liability of its partners is limited unlike the-->
+<!--        partnership firm along with the requirement of minimal maintenance. So, in case of any default, assets in the-->
+<!--        name of LLP are liable &amp; not the personal assets of the directors. A Limited Liability Partnership combines-->
+<!--        the advantages of both the Company and Partnership into a single form of organization and one partner is not-->
+<!--        responsible or liable for another partner\u0027s misconduct or negligence.\n\n\n-->
+<!--        <b><u>Documents Required</u></b>\n-->
+<!--        <b>For Directors and Shareholders</b>\n-->
+<!--        1. Self Attested PAN Card copy\n-->
+<!--        2. Self Attested copy of any one of the Identity Proof(Voter\'s ID/Passport/Driver\'s License)\n-->
+<!--        3. Self Attested copy of Address Proof in the name of the director (Any utility bill i.e., mobile bill/water bill/ electricity bill, or bank statement which should not be older than two months)\n-->
+<!--        4. Passport-sized photograph\n\n-->
+<!--        <b>For Registered Office</b>\n-->
+<!--        1. Rent Agreement (Notarised: For rented property)\n-->
+<!--        2. Sale Deed/Property Deed in English (in case of owned property)\n-->
+<!--        3. No-objection Certificate from the property owner\n-->
+<!--        4. Latest Electricity Bill / Mobile or Telephone Bill / Latest Bank Statement/Gas Bill</string>-->
+
+    <string name="LLP_Desc">Are you planning to start a Limited Liability Partnership (LLP)?\nDoing business after Company registration reflect your Intention for doing business in a systematic manner.\nGet your Company Registration done easily with Legal Suvidha.\n</string>
+
+<!--    <string name="Public_Limited_company_Desc">A public Limited company is a company that has limited liability &amp;-->
+<!--        unlike the private limited company, the shares are offered to the general public. It is registered under the-->
+<!--        Companies Act, 2013. For incorporation, a minimum of 7 shareholders &amp; 3 directors is required. The directors-->
+<!--        can also be shareholders.\n-->
+<!--        It has all the advantages of a private limited company. The shareholders in a public limited company-->
+<!--        can transfer their shares with great ease. The liabilities of the members are limited. It is compulsory to-->
+<!--        add \‘limited\’ after their name.\n \n-->
+<!--        <b><u> Documents required</u></b>\n-->
+<!--        1. Copy of PAN Card of directors\n-->
+<!--        2. Passport size photograph of directors\n-->
+<!--        3. Copy of Aadhaar Card/ Voter identity card\n-->
+<!--        4. Copy of Rent agreement (If rented property)\n-->
+<!--        5. Electricity/ Water bill (Business Place)\n-->
+<!--        6. Copy of Property papers (If owned property)\n-->
+<!--        7. Landlord NOC (Format will be provided)</string>-->
+
+    <string name="Public_Limited_company_Desc">Are you planning to start a Public Limited Company?\nDoing business after Company registration reflect your Intention for doing business in a systematic manner.\nGet your Company Registration done easily with Legal Suvidha.\n</string>
+
+<!--    <string name="OPC_Desc">As per Companies Act, 2013, OPC is defined as a company having one person as its member-->
+<!--        meaning thereby OPC is effectively a company that has only one shareholder as its member. One of the biggest-->
+<!--        advantages of an OPC is that there can be only one member in an OPC, while a minimum of two members is required-->
+<!--        for incorporating and maintaining a Private Limited Company or a Limited Liability Partnership. Similar to a Company,-->
+<!--        an OPC is a separate legal entity from its members, offers limited liability protection to its shareholders, has-->
+<!--        continuity of business and is easy to incorporate.\n \n\n-->
+<!--        <b><u> Documents required</u></b>\n-->
+<!--        <b>For Directors and Shareholders</b> \n-->
+<!--        1. Self Attested PAN Card copy\n-->
+<!--        2. Self Attested copy of any one of the Identity Proof(Voter\'s ID/Passport/Driver\'s License)\n-->
+<!--        3. Self Attested copy of Address Proof in the name of the director (Any utility bill i.e., mobile bill/water bill/ electricity bill, or bank statement-->
+<!--        which should not be older than two months)\n-->
+<!--        4. Passport-sized photograph\n\n-->
+<!--        <b>For Registered Office\n</b>-->
+<!--        1. Rent Agreement (Notarised: For rented property)\n-->
+<!--        2. Sale Deed/Property Deed in English (in case of owned property)\n-->
+<!--        3. No-objection Certificate from the property owner\n-->
+<!--        4. Latest Electricity Bill / Mobile or Telephone Bill / Latest Bank Statement/Gas Bill</string>-->
+
+    <string name="OPC_Desc">Are you planning to start a One Person Company?\nDoing business after Company registration reflect your Intention for doing business in a systematic manner.\nGet your Company Registration done easily with Legal Suvidha.\n</string>
+
+<!--    <string name="Annual_Compliance_For_Pvt_Co">• The first Auditor shall be appointed within one month from the date of incorporation-->
+<!--        of the Company for the period of 5 years and form ADT-1 will be file for an appointment.\n-->
+<!--        • Every Company shall prepare its Accounts and get the same audited by a Chartered Accountant at the end of the Financial Year compulsorily.\n-->
+<!--        • Every Private Limited Company is required to file its Annual Return in form MGT-7 within 60 days of holding of the Annual General Meeting.\n-->
+<!--        • Every Private Limited Company is required to file its Balance Sheet along with the statements of Profit and Loss Account and Director Report in form AOC-4 within 30 days of holding of the Annual General Meeting.\n\n-->
+<!--        <b><u>Advantages of ROC Annual Filing</u> </b> \n-->
+<!--        <b>REDUCE PENALTY </b>- Filling ROC forms on time will lead to saving the cost of the penalty.\n-->
+<!--        <b>PROPER COMPLIANCE </b>- Proper filling on time can help in the proper compliances of the company.\n-->
+<!--        <b>DEFAULTING STATUS </b>- By Filling ROC Form on time Company can maintain the status of Non-Dormant/ Active Company.\n-->
+<!--        <b>BORROWING CAPACITY </b>- A company enjoys better avenues for borrowing of funds. Even banking and financial institutions prefer to render large financial assistance to a company rather than partnership firms or proprietary concerns. Therefore the Company must ensure timely fulfillment of compliances.\n-->
+<!--        <b>TRANSPARENCY </b>- Annual filing ensures transparency in the working of the companies.</string>-->
+
+    <string name="Annual_Compliance_For_Pvt_Co">Every Company, Post Incorporation has to compulsorily meet their Compliances. With Legal Suvidha get Complainces for your Private Co. done conveniently.
+    </string>
+
+
+
+<!--    <string name="Annual_Compliance_For_LLP">All LLPs registered with the Ministry of Corporate Affairs need to file Annual Returns-->
+<!--        and Statement of Accounts for every Financial Year. It is mandatory for an LLP to file a return irrespective of whether it-->
+<!--        has done any business.\n\n-->
+<!--        &lt;!&ndash;        <b><u>Filing Annual Return:</u> </b> \n&ndash;&gt;-->
+<!--        &lt;!&ndash;        Every LLP is required to file an Annual Return in Form 11 to the Registrar within 60 days from the closure of a financial year.&ndash;&gt;-->
+<!--        &lt;!&ndash;        Therefore the Annual Return has to be filed on or before 30th May every year. Form 11 or Annual Return is Applicable to&ndash;&gt;-->
+<!--        &lt;!&ndash;        those LLPs which were registered till 30 September 2015. For LLPs registered after 1st October 2015, the return will be&ndash;&gt;-->
+<!--        &lt;!&ndash;        filed in the year 2017.\n\n&ndash;&gt;-->
+<!--        &lt;!&ndash;        <b><u>Filing Annual Accounts or Statement of Accounts or P&amp;L and Balance Sheet:</u> </b> \n\n&ndash;&gt;-->
+<!--        &lt;!&ndash;        Every LLP is required to file the Statement of Accounts in with the Registrar of Companies in Form 8 on or before 30th October every year.&ndash;&gt;-->
+<!--        &lt;!&ndash;        Form 8 or Annual Statements are applicable to the LLPs registered till 30th September 2015. For LLPs registered after 1st October&ndash;&gt;-->
+<!--        &lt;!&ndash;        2015, the Annual Statements should be filed in 2017. LLPs are separate legal entities; therefore, it is the responsibility of the&ndash;&gt;-->
+<!--        &lt;!&ndash;        Designated Partners to maintain a proper book of accounts and file an annual return with the MCA each financial year. It should be&ndash;&gt;-->
+<!--        &lt;!&ndash;        noted that LLPs whose annual turnover exceeds Rs. 40 lakh or whose contribution exceeds Rs. 25 lakh are required to get their&ndash;&gt;-->
+<!--        &lt;!&ndash;        accounts audited by a qualified Chartered Accountant mandatorily.\n\n&ndash;&gt;-->
+<!--        <b><u>Advantages of LLP Annual Filing</u> </b> \n-->
+<!--        <b>REDUCE PENALTY</b>-Late filing or non-filing of LLP Annual Return or Statement of Accounts and Solvency before the due date will attract a penalty. Therefore the Annual Filing of LLP shall be done timely.\n-->
+<!--        <b>PROPER COMPLIANCE</b>-Proper filling on time can help in proper compliances of the LLP.\n-->
+<!--        <b>BETTER DECISION MAKING</b>-It is the responsibility of the Designated Partners to maintain proper book of accounts and file annual return with the MCA each financial year.\n-->
+<!--    </string>-->
+
+    <string name="Annual_Compliance_For_LLP">Every Company, Post Incorporation has to compulsorily meet their Compliances. With Legal Suvidha get  Complainces for your LLP done conveniently.</string>
+
+    <string name="Annual_Compliance_For_OPC">Every Company, Post Incorporation has to compulsorily meet their Compliances. With Legal Suvidha get Complainces for your OPC done conveniently.</string>
+
+    <string name="Annual_Compliance_For_Section_8"> Every Company, Post Incorporation has to compulsorily meet their Compliances. With Legal Suvidha get Complainces for your Section 8 NGO done conveniently.</string>
+<!--        Section 8 Company is a company registered under Companies Act, 2013 incorporated with-->
+<!--        the objective of promotion of commerce, art, science, sports, education, research, social welfare, religion, charity, and/or-->
+<!--        protection of the environment. It is also referred to as a Non-Profit Company. Now, every company is required to fulfill certain-->
+<!--        monthly, quarterly &amp; yearly compliances.\n\n-->
+<!--        To make sure that your S. 8 company has a good legal standing in the eyes of the governmental authorities you are required to-->
+<!--        follow the compliances provided under the Companies Act, 2013. Following are some of the annual compliances:\n-->
+<!--        • Annual returns.\n-->
+<!--        • Income tax returns.\n-->
+<!--        • Annual General Meeting.\n-->
+<!--        • Compulsory Annual Audit.\n-->
+<!--        • Annual Filing of Forms.-->
+
+        <!--        <b><u>Advantages of Section 8 Annual Filing</u></b>\n-->
+        <!--        <b>CREDIBILITY &amp; TRANSPARENCY</b>- Proper compliance is the obligation of every company. This regular compliance helps-->
+        <!--        the company in raising its credibility. In government tenders, loans, etc., the authority or banks,-->
+        <!--        etc. consider the regular compliance as criteria for ensuring the credibility &amp; transparency of an organization.\n-->
+        <!--        <b>ACTIVE STATUS</b>- As stated earlier, regular default in annual compliances results in striking down of name of the company-->
+        <!--        by the registrar. So, annual compliance helps in marinating active status.\n-->
+        <!--        <b>CLIENT ASSURANCE</b>- Regular annual compliance results in assuring the clients that the company is regularly reviewing its-->
+        <!--        operation. So, they can trust the company regarding their operations.\n-->
+        <!--        <b>CORRECTNESS OF DATA</b>- Annual compliance by the companies ensures that the data collected for annual compliance is correct.\n-->
+        <!--        <b>AVOIDING PENALTIES</b>- Many times small businesses end up with heavy penalties as they do not comply with annual compliances.-->
+        <!--        So, regular annual compliances result in avoiding heavy penalties.\n-->
+
+    <string name="Trademark_Registration">Give your Brand a Security by getting Trademark Registration! Legal Suvidha helps you to find unique names and brand value.</string>
+<!--        Get your Trademark Registration done with the help of the best team of-->
+<!--        Trademark Attorney, Patent Attorney, Advocates from the best Law firm. Free trademark search, Free advice-->
+<!--        for trademark class search, Know all about intellectual property rights and know how to check the trademark-->
+<!--        application status. A trademark is a unique expression which may be a word, slogan, name, device, label,-->
+<!--        graphics, or numerals used by a business to distinguish its goods or services from other similar goods or-->
+<!--        services originating from a different business. Through trademark registration, you can protect your brand or-->
+<!--        logo by restricting other people from using the same. It is an intangible asset for a business.\n-->
+<!--        \n<b><u> Documents required</u></b>\n-->
+<!--        1. Trademark Application.\n-->
+<!--        2. Specifications of goods or services for which application is made.\n-->
+<!--        3. Representation of mark in prescribed size and format.\n</string>-->
+
+    <string name="GST_Registration">Want to get Legally Recognized as supplier of goods/services? Is your annual turnover for the sale of goods exceeds
+        40 lakhs? or service exceeds 20 lakhs? Legal Suvidha will make the registration process easy and help you to get a valid GSTIN within 7 working days.
+    </string>
+<!--        From 1st July 2017 GST replaced various Central and State level indirect taxes like Value Added Tax,-->
+<!--        Service tax, Central Excise, etc.Businesses that are registered under VAT or Service Tax need to migrate to-->
+<!--        GST as per the enrolment plan of State Governments.It should be noted that GST registration must be applied-->
+<!--        within 30 days from the date becoming liable for registration. The penalty for non-payment &amp; short-->
+<!--        payment of tax is prescribed at the rate of 10% of the-->
+<!--        tax amount subject to a maximum of Rs. 10,000.\n-->
+
+<!--        Legal Suvidha Experts will guide you on the applicability and compliances under GST for your business.-->
+<!--        They will assist you in the procedural formalities to get registered and secure your GSTIN.-->
+<!--        The average time taken to obtain GST registration is about 5 - 7 working days, subject to government-->
+<!--        processing time and client document submission.\n-->
+
+<!--      \n<b><u> Documents required</u></b>\n-->
+<!--        1. Provisional ID obtained by the concerned department\n-->
+<!--        2. Password obtained by the concerned department\n-->
+<!--        3. Valid email address\n-->
+<!--        4. Valid mobile number\n-->
+
+<!--        5. Proof of constitution of business:\n-->
+<!--        • In case of partnership deed – Partnership Deed\n-->
+<!--        • In the case of others: Registration Certification of the business entity\n-->
+
+<!--    6. Photograph of promoters/partners/Karta of HUF\n-->
+<!--    7. Proof of appointment of authorized signatory\n-->
+<!--    8. Photograph of authorized signatory\n-->
+
+<!--    9.Opening page of passbook or statement containing the following information:\n-->
+<!--        •  Bank account number\n-->
+<!--        •  Address of branch\n-->
+<!--        •  Address of account holder\n-->
+<!--        •  Few transaction details\n-->
+
+<!--    </string>-->
+    <string name="GST_Return_Registration">GST Filing got easier with Legal Suvidha.\nEvery Registered Taxpayer should\n
+        a. Submit his/her sale of goods/services in GSTR-1\n
+        b. Check their input in GSTR-2.\n
+        c. Pay his/her liability in GSTR-3B\n
+        d. File GSTR-4 as a Composite Dealer\n
+        e. File Annual Return\n
+    </string>
+<!--        Every person registered under the GST Act has to periodically furnish-->
+<!--        the details of sales, purchases, and tax paid (ITC) and collected thereon by filing the return with GST-->
+<!--        Authorities. Before filing any return payment of tax due is a prerequisite otherwise such return will be-->
+<!--        invalid.\n-->
+<!--        Legal Suvidha Experts will guide you on the applicability and compliances under the new GST regime,-->
+<!--        GST registration would be required for all enterprises involved in the buying or selling or delivery-->
+<!--        of services exceeding Rs.10 lakhs a year in north-eastern and hill states, while the limit is Rs.20 lakhs-->
+<!--        for rest of India. There are separate returns for a taxpayer registered under the composition-->
+<!--        scheme, the taxpayer registered as an Input Service Distributor, a person liable to deduct or collect the tax-->
+<!--        (TDS/TCS).\n\n-->
+
+<!--        Following forms are applicable for normal taxpayers:\n-->
+<!--        • <b>Form GSTR-1</b> – Monthly details of outward supplies by the 10th of the next month.\n-->
+<!--        • <b>Form GSTR-2</b>– Monthly details of inward supplies by 15th of the next month (SUSPENDED).\n-->
+<!--        • <b>Form GSTR-3</b> – Monthly return along with payment of due tax by 20th of next month (SUSPENDED).\n-->
+<!--        • <b>Form GSTR-9</b> – Annual return by 31st December of the next financial year.-->
+<!--    </string>-->
+
+    <string name="ITR_Registration">E-FILE INCOME TAX RETURNS -THE SMARTEST WAY IN 2021.\nYou can begin income tax e-filing with help of our dedicated Professional experts within 3 working days.</string>
+<!--        \<b><u>Income Tax Filing- Business: </u></b>\n-->
+<!--        Income tax is the taxes paid on the total income earned during the relevant financial year at the-->
+<!--        rates prescribed.An Income tax Return is a statement of Income earned to calculate tax liability and payment or refund of taxes-->
+<!--        to the government. Thus the purpose of filing the return is to report our income and taxes paid thereon to the-->
+<!--        government. It is mandatory for individuals, NRIs, partnership firms, LLPs, Companies, Trust to file income-->
+<!--        tax returns each year. Income tax return form can be e-filed or manually filed. \n-->
+
+<!--        \n<b><u>Income Tax Filing- Salaried: </u></b>\nIncome tax is the taxes paid on the total income earned during-->
+<!--        the relevant financial year at the rates prescribed. An Income tax Return is a statement of Income earned-->
+<!--        to calculate tax liability and payment or refund of taxes to the government. Thus the purpose of filing-->
+<!--        the return is to report our income and taxes paid thereon to the government. It is mandatory for individuals,-->
+<!--        NRIs, partnership firms, LLPs, Companies, Trust to file income tax returns each year. Income tax return-->
+<!--        form can be e-filed or manually filed.\n\n-->
+<!--        Legal Suvidha Providers can help you file income tax returns.</string>-->
+
+    <string name="DEBUG_TAG">PushNotification</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

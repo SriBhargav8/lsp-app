@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.LegalSuvidha.legalsuvidhaproviders">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- <uses-permission android:name="android.permission.READ_SMS" /> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+<!--    <uses-permission android:name="android.permission.RECEIVE_SMS" />-->
+<!--    <uses-permission android:name="android.permission.READ_SMS" />-->
+<!--    <uses-permission android:name="android.permission.WRITE_SMS" />-->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_lsp_adaptive_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LegalSuvidhaProviders"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".Profile.RewardsActivity"
+            android:parentActivityName=".HomeScreen"/>
+        <activity android:name=".Payments.PaymentActivity" />
+
+<!--        <meta-data-->
+<!--            android:name="com.razorpay.ApiKey"-->
+<!--            android:value="rzp_test_n4kt4LEEJKNzey" />-->
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_Iy543ZNNyjeaDI" />
+
+        <activity android:name=".SignupLogin.SignUpp.SignUpReferralActivity" />
+        <activity android:name=".Bookings.BookingActivity" />
+        <activity android:name=".Profile.ReferralActivity" />
+        <activity android:name=".SignupLogin.StartActivity" />
+        <activity android:name=".SignupLogin.Login.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="legalsuvidhaproviders.page.link"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Profile.ProfileActivity"
+            android:parentActivityName=".HomeScreen"/>
+
+        <activity android:name=".SignupLogin.SignUpp.SignUp" />
+        <activity android:name=".ShareCertificate.ShareCertificateGeneratorActivity" />
+        <activity android:name=".GSTReturnLateFeeCalculator.GstReturnLateFeeCalculator" />
+        <activity android:name=".TypesOfServicesActivity" />
+        <activity android:name=".RentReceiptGenerator.RentReceiptGenerator" />
+        <activity android:name=".IncomeTaxCalculator.IncomeTaxCalculator" />
+        <activity android:name=".StartupIndiaRegistration.StartupIndiaRegistrationActivity" />
+
+        <!-- <meta-data -->
+        <!-- android:name="com.google.firebase.messaging.default_notification_icon" -->
+        <!-- android:resource="@drawable/ic_launcher"/> -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/notification_icon" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/teal_700" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/BLOGS_CHANNEL_ID" />
+        <meta-data
+            android:name="notification_channel_id_rent"
+            android:value="@string/RENT_RECEIPT_CHANNEL_ID" />
+        <meta-data
+            android:name="notification_channel_id_share_certificate"
+            android:value="@string/SHARE_CERTIFICATE_CHANNEL_ID" />
+        <meta-data
+            android:name="firebase_messaging_auto_init_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="false" />
+
+        <activity android:name=".GstReturn.GstReturnActivity" />
+        <activity android:name=".FileITR.FileITRActivity" />
+        <activity android:name=".TrademarkRegistration.TrademarkRegistrationActivity" />
+        <activity android:name=".FrameActivity" />
+        <activity
+            android:name=".Blogs.Blog_List_Activity"
+            android:parentActivityName=".Blogs.BlogsActivity">
+
+            <!-- <meta-data -->
+            <!-- android:name="android.support.PARENT_ACTIVITY" -->
+            <!-- android:value=".Blogs.BlogsActivity"/> -->
+        </activity>
+        <activity
+            android:name=".Blogs.CurrentBlogActivity"
+            android:parentActivityName=".Blogs.BlogsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Blogs.BlogsActivity" />
+        </activity>
+        <activity
+            android:name=".Blogs.BlogsActivity"
+            android:parentActivityName=".HomeScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeScreen" />
+        </activity>
+        <activity android:name=".MandatoryAnnualCompliance.MandatoryComplianceActivity" />
+        <activity android:name=".GstRegistration.GstRegistrationActivity" />
+        <activity android:name=".BusinessRegistration.BusinessRegistrationActivity" />
+        <activity android:name=".BusinessRegistration.BusinessRegistrationFrameActivity" />
+        <activity android:name=".HomeScreen" />
+        <activity android:name=".GstVaidation.GstValidatorActivity" />
+        <activity android:name=".SignupLogin.Login.LoginVerifyOTP" />
+        <activity android:name=".SignupLogin.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.LegalSuvidha.legalsuvidhaproviders"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name=".MyFireBaseMessagingService"
+            android:directBootAware="true"
+            android:stopWithTask="false"
+            tools:targetApi="n">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".FirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
