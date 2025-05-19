@@ -1,0 +1,30 @@
+workflows:
+  android-workflow:
+    name: Android Build
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    environment:
+      node: v16.20.2
+      java: 17
+      groups:
+        - google_credentials
+      vars:
+        PACKAGE_NAME: "com.LegalSuvidha.legalsuvidhaproviders"
+    scripts:
+      - name: Set up JDK
+        script: |
+          #!/usr/bin/env sh
+          set -e
+          export JAVA_HOME="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home"
+          export PATH=$JAVA_HOME/bin:$PATH
+      - name: Build APK
+        script: |
+          #!/usr/bin/env sh
+          set -e
+          ./gradlew assembleRelease
+    artifacts:
+      - app/build/outputs/apk/release/app-release.apk
+    publishing:
+      email:
+        recipients:
+          - sribhargav8500@gmail.com 
