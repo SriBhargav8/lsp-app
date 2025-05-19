@@ -18,6 +18,14 @@ android {
         multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        
+        // Add vector drawables support
+        vectorDrawables.useSupportLibrary = true
+        
+        // Add support for different screen densities
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+        }
     }
 
     signingConfigs {
@@ -35,11 +43,74 @@ android {
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            
+            // Enable R8 full mode
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            
+            // Enable resource shrinking
+            shrinkResources true
+            
+            // Enable code shrinking
+            minifyEnabled true
+            
+            // Enable split APKs
+            splits {
+                abi {
+                    enable true
+                    reset()
+                    include 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+                    universalApk true
+                }
+            }
+        }
+        
+        debug {
+            // Enable R8 for debug builds
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+    
+    // Enable ViewBinding
+    buildFeatures {
+        viewBinding true
+    }
+    
+    // Enable AndroidX
+    useLibrary 'android.test.runner'
+    useLibrary 'android.test.base'
+    useLibrary 'android.test.mock'
+    
+    // Enable lint checks
+    lintOptions {
+        checkReleaseBuilds true
+        abortOnError false
+    }
+    
+    // Enable dexing options
+    dexOptions {
+        javaMaxHeapSize "4g"
+        preDexLibraries true
+        maxProcessCount 8
+    }
+    
+    // Enable packaging options
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude 'META-INF/*.kotlin_module'
     }
 }
 
