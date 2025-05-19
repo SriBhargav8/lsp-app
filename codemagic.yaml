@@ -15,6 +15,12 @@ workflows:
           set -e
           export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
           export PATH=$JAVA_HOME/bin:$PATH
+      - name: Make gradlew executable
+        script: |
+          #!/usr/bin/env sh
+          set -e
+          chmod +x ./gradlew
+          ls -la ./gradlew  # This will show the permissions for debugging
       - name: Build APK
         script: |
           #!/usr/bin/env sh
